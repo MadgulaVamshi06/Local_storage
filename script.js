@@ -31,6 +31,7 @@ function displayUserData() {
 
     getdataArry.forEach(function (ele, i) {
       tbody.innerHTML = "";
+      thead.innerHTML = ""
 
       var th1 = document.createElement("th");
       th1.innerText = "Name";
